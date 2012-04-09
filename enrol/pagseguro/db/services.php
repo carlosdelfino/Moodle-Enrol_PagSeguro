@@ -20,7 +20,7 @@
  *
  * @package    enrol
  * @subpackage pagseguro
- * @author 2011 Jerome Mouneyrac
+ * @author 2012 Carlos Delfino
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

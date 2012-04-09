@@ -20,8 +20,8 @@
  *
  * @package    enrol
  * @subpackage pagseguro
- * @author     Iñaki Arenaza
- * @copyright  2010 Iñaki Arenaza <iarenaza@eps.mondragon.edu>
+ * @author     Carlos Delfino
+ * @copyright  2012 Carlos Delfino {@link http://www.carlosdelfino.eti.br}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
