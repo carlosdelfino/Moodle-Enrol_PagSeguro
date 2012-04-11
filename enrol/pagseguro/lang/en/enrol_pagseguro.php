@@ -1,15 +1,21 @@
 <?php
 $string['pluginname'] = 'PagSeguro';
 $string['pluginname_desc'] = 'The PagSeguro module allows you to set up paid courses.  If the cost for any course is zero, then students are not asked to pay for entry.  There is a site-wide cost that you set here as a default for the whole site and then a course setting that you can set for each course individually. The course cost overrides the site cost.';
-$string['enrolperiod_desc']= 'Duração padrão do período de inscrição (em segundos).';
 $string['enrolperiod'] = 'Periodo de Inscrição';
+$string['enrolperiod_desc'] = 'Duração padrão do período de inscrição (em segundos). Se definido como zero, a duração da matrícula será ilimitado por padrão.'; 
+$string['enrolperiod_help'] = 'Duração da validade da matricula, iniciando no momento em que o usuário é matrículado. Se disabilitado, a duração da matricula será ilimitado.';
 $string['defaultrole_desc'] = 'Papel padrão para a matrícula no curso';
 $string['defaultrole'] = 'Papel padrão';
 $string['cost'] = 'Custo';
-$string['status_desc'] = 'Status';
-$string['status'] = 'Status';
+$string['status_desc'] = 'Ativa e desativa esta Instância do PagSeguro como opção de matrícula.';
+$string['status'] = 'Ativo?';
 $string['mailadmins'] = 'Enviar e-mail para os Administradores';
 $string['mailteachers'] = 'Enviar e-mail para os Professores';
 $string['mailstudents'] = 'Enviar e-mail para os Alunos';
 $string['businessemail_desc'] = 'Email de Administração do PagSeguro';
 $string['businessemail'] = 'Email do PagSeguro';
+$string['enrolstartdate'] = 'Data inicial da matrícula';
+$string['enrolstartdate_help'] = 'Se ativado, os interessados pelo curso serão matriculados apenas apartir desta data.';
+$string['enrolenddate'] = 'Data final da matrícula';
+$string['enrolenddate_help'] = 'Se ativado, os interessados pelo curso serão matriculados apenas até esta data.';
+$string['assignrole'] = 'Matrícular como';
